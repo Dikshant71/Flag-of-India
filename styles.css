@@ -1,0 +1,89 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 990px;
+    height: 660px;
+    margin: 20px;
+    border: 2px solid black;
+}
+.orange{
+    background-color: #FF9933;
+}
+.white{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.green{
+    background-color: #138808;
+}
+.wheel{
+    height: 157.7px;
+    width:  157.7px;
+    border-radius: 50%;
+    border: 2px solid darkblue;
+    position: relative;
+}
+.wheel .line{
+    height: 100%;
+    width: 1px;
+    position: absolute;
+    left: 50%;
+    background: darkblue;
+}
+    .line:nth-child(1) {
+    transform: rotate(15deg)
+}
+
+ 
+.line:nth-child(2) {
+    transform: rotate(30deg)
+}
+ 
+.line:nth-child(3) {
+    transform: rotate(45deg)
+}
+ 
+.line:nth-child(4) {
+    transform: rotate(60deg)
+}
+ 
+.line:nth-child(5) {
+    transform: rotate(75deg)
+}
+ 
+.line:nth-child(6) {
+    transform: rotate(90deg)
+}
+ 
+.line:nth-child(7) {
+    transform: rotate(105deg)
+}
+ 
+.line:nth-child(8) {
+    transform: rotate(120deg)
+}
+ 
+.line:nth-child(9) {
+    transform: rotate(135deg)
+}
+ 
+.line:nth-child(10) {
+    transform: rotate(150deg)
+}
+ 
+.line:nth-child(11) {
+    transform: rotate(165deg)
+}
+ 
+.line:nth-child(12) {
+    transform: rotate(180deg)
+}
