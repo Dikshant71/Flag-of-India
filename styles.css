@@ -87,3 +87,13 @@ body{
 .line:nth-child(12) {
     transform: rotate(180deg)
 }
+@media screen and (max-width: 480px){
+    .wheel{
+        height: 43px;
+        width: 43px;
+    }
+    .container{
+        width: 270px;
+    height: 180px;
+    }
+}
